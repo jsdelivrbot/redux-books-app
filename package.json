@@ -1,0 +1,33 @@
+{
+  "name": "redux-books-app",
+  "version": "1.0.0",
+  "description": "Simple books app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krybinski/redux-books-app.git"
+  },
+  "author": "Kamil Rybinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krybinski/redux-books-app/issues"
+  },
+  "homepage": "https://github.com/krybinski/redux-books-app#readme",
+  "dependencies": {
+    "babel-preset-stage-1": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.0.0",
+    "webpack-dev-server": "^3.0.0"
+  }
+}
